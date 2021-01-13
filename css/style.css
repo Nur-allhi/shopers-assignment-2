@@ -1,0 +1,46 @@
+.e-intro h1 span {
+  color: rgb(21, 175, 189);
+}
+.e-intro h1 {
+  font-size: 100px;
+}
+.e-intro p {
+  font-size: 20px;
+}
+.e-button-cart {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(6, 79, 151);
+  font-weight: bold;
+}
+.e-button-cart img {
+  height: 25px;
+  width: 25px;
+}
+.e-banner-elmnt-bg {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+}
+.e-banner-elmnt img {
+  height: 100px;
+  width: 100px;
+}
+.e-banner-h-w img {
+  height: 355px;
+  width: 600px;
+}
+.e-card-footer {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.e-card {
+  border: 0;
+  border-radius: 15px;
+}
+.e-card img {
+  /* margin-top: 5px; */
+  background-color: #b80606;
+  border-radius: 20px;
+}
