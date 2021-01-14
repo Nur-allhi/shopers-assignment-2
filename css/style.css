@@ -1,7 +1,14 @@
+.e-navbar {
+  font-family: "Cabin", sans-serif;
+}
+body {
+  background-color: white;
+}
 .e-intro h1 span {
   color: rgb(21, 175, 189);
 }
 .e-intro h1 {
+  font-family: "Anton", sans-serif;
   font-size: 100px;
 }
 .e-intro p {
@@ -28,7 +35,7 @@
   height: 100px;
   width: 100px;
 }
-.e-banner-h-w img {
+.e-banner img {
   height: 355px;
   width: 600px;
 }
@@ -41,17 +48,54 @@
   border-radius: 15px;
 }
 .e-card img {
-  background-color: #e4d7d7;
+  background-color: #f1f1f1;
   border-radius: 20px;
+}
+.e-card-title h2 {
+  font-size: 25px;
+}
+h3 {
+  color: rgb(182, 35, 5);
+}
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
 }
 .e-card-button {
   color: white;
   border: none;
   border-radius: 8px;
-  background-color: #0781f3;
-  padding: 10px;
+  background-color: rgb(6, 79, 151);
+  padding: 15px;
   font-weight: bold;
+  margin-bottom: 7px;
 }
 .e-card-button i {
   padding-right: 10px;
+}
+.e-update {
+  margin-bottom: 20px;
+  /* background-color: rgb(245, 239, 239); */
+  border: none;
+  height: 300px;
+}
+.e-update img {
+  border: none;
+  height: 300px;
+  width: 500px;
+}
+@media (max-width: 600px) {
+  .e-update img {
+    width: 200px;
+    height: 150px;
+  }
+  .e-update {
+    padding: 10px;
+  }
+  .e-card-button {
+    padding: 10px;
+  }
+  .e-banner img {
+    width: 380px;
+    height: 200px;
+  }
 }
