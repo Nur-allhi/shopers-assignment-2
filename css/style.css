@@ -12,6 +12,7 @@
   border-radius: 10px;
   background-color: rgb(6, 79, 151);
   font-weight: bold;
+  color: white;
 }
 .e-button-cart img {
   height: 25px;
@@ -40,7 +41,17 @@
   border-radius: 15px;
 }
 .e-card img {
-  /* margin-top: 5px; */
-  background-color: #b80606;
+  background-color: #e4d7d7;
   border-radius: 20px;
+}
+.e-card-button {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #0781f3;
+  padding: 10px;
+  font-weight: bold;
+}
+.e-card-button i {
+  padding-right: 10px;
 }
